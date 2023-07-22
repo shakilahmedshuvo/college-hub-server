@@ -26,7 +26,7 @@
     },
     {
         "id": 2,
-        "collegeName": "Bangladesh University of Engineering and Technology (BUET)",
+        "collegeName": "Jahangirnagar University (JU)",
         "collegeImg": "https://img.freepik.com/free-vector/flat-university-concept_23-2148181232.jpg?w=740&t=st=1690045468~exp=1690046068~hmac=91912f8a024aeeef151b049c4be4e5d96d65da549fb27aaf05f0d38c7fabed4d",
         "admissionDates": {
             "startDate": "2023-10-01",
@@ -76,7 +76,7 @@
     },
     {
         "id": 4,
-        "collegeName": "Independent University, Bangladesh (IUB)",
+        "collegeName": "Rajshahi University (RU)",
         "collegeImg": "https://img.freepik.com/free-vector/classic-graduation-concept-with-flat-design_23-2147928198.jpg?w=740&t=st=1690045646~exp=1690046246~hmac=b92c9db4b3e0777b370318ab29bb2b82867dad424ad5013d2673a74dd7280e07",
         "admissionDates": {
             "startDate": "2023-12-01",
