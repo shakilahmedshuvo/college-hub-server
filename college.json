@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "collegeName": "Dhaka University",
+        "collegeImg": "https://img.freepik.com/free-vector/flat-university-building-background_52683-10108.jpg?w=740&t=st=1690045384~exp=1690045984~hmac=0cc40b7c15c955170e9fd18b892ed8d00643659eae6072082e98f953f9e23797",
+        "admissionDates": {
+            "startDate": "2023-09-01",
+            "endDate": "2023-12-31"
+        },
+        "events": {
+            "name": "Orientation Day",
+            "date": "2023-09-15",
+            "location": "Campus Auditorium"
+        },
+        "research": {
+            "title": "Study on Artificial Intelligence",
+            "authors": "Md. Rahman Khan, Farhana Ahmed",
+            "publishDate": "2023-08-20",
+            "journal": "Journal of AI Research"
+        },
+        "sports": {
+            "name": "Football",
+            "titles": "University Football Championship",
+            "nationalCups": "National Collegiate Cup"
+        }
+    },
+    {
+        "id": 2,
+        "collegeName": "Bangladesh University of Engineering and Technology (BUET)",
+        "collegeImg": "https://img.freepik.com/free-vector/flat-university-concept_23-2148181232.jpg?w=740&t=st=1690045468~exp=1690046068~hmac=91912f8a024aeeef151b049c4be4e5d96d65da549fb27aaf05f0d38c7fabed4d",
+        "admissionDates": {
+            "startDate": "2023-10-01",
+            "endDate": "2024-01-15"
+        },
+        "events": {
+            "name": "Open House",
+            "date": "2023-10-10",
+            "location": "Campus Grounds"
+        },
+        "research": {
+            "title": "Medical Breakthrough",
+            "authors": "Shahid Hasan, Nusrat Jahan",
+            "publishDate": "2023-09-05",
+            "journal": "New England Journal of Medicine"
+        },
+        "sports": {
+            "name": "Basketball",
+            "titles": "Regional Basketball Championship",
+            "nationalCups": "National Collegiate Basketball Cup"
+        }
+    },
+    {
+        "id": 3,
+        "collegeName": "North South University (NSU)",
+        "collegeImg": "https://img.freepik.com/free-vector/graduation-cap-diploma-with-flat-design_23-2147921174.jpg?w=740&t=st=1690045547~exp=1690046147~hmac=e3905741696f492db7d0d6a2919486b3424c7c211d19ea8dedb4d0b5a599cd12",
+        "admissionDates": {
+            "startDate": "2023-11-01",
+            "endDate": "2024-02-28"
+        },
+        "events": {
+            "name": "Career Fair",
+            "date": "2023-11-20",
+            "location": "Student Union Building"
+        },
+        "research": {
+            "title": "Environmental Sustainability",
+            "authors": "Fatima Islam, Aminul Haque",
+            "publishDate": "2023-10-15",
+            "journal": "Environmental Science Journal"
+        },
+        "sports": {
+            "name": "Swimming",
+            "titles": "Intercollegiate Swimming Championship",
+            "nationalCups": "National Collegiate Swimming Cup"
+        }
+    },
+    {
+        "id": 4,
+        "collegeName": "Independent University, Bangladesh (IUB)",
+        "collegeImg": "https://img.freepik.com/free-vector/classic-graduation-concept-with-flat-design_23-2147928198.jpg?w=740&t=st=1690045646~exp=1690046246~hmac=b92c9db4b3e0777b370318ab29bb2b82867dad424ad5013d2673a74dd7280e07",
+        "admissionDates": {
+            "startDate": "2023-12-01",
+            "endDate": "2024-03-31"
+        },
+        "events": {
+            "name": "Science Fair",
+            "date": "2023-12-10",
+            "location": "Science Building"
+        },
+        "research": {
+            "title": "Advancements in Robotics",
+            "authors": "Nazmul Islam, Ayesha Khan",
+            "publishDate": "2023-11-05",
+            "journal": "IEEE Transactions on Robotics"
+        },
+        "sports": {
+            "name": "Tennis",
+            "titles": "National Tennis Championship",
+            "nationalCups": "Collegiate Tennis Cup"
+        }
+    },
+    {
+        "id": 5,
+        "collegeName": "BRAC University",
+        "collegeImg": "https://img.freepik.com/free-vector/graduation-cap-diploma-with-flat-design_23-2147906274.jpg?w=740&t=st=1690045599~exp=1690046199~hmac=195dea254355a74029bce78e8722e6ac6aaf88fe067449ad8ae88f17b6f806bd",
+        "admissionDates": {
+            "startDate": "2024-01-01",
+            "endDate": "2024-04-30"
+        },
+        "events": {
+            "name": "Cultural Fest",
+            "date": "2024-01-20",
+            "location": "Amphitheater"
+        },
+        "research": {
+            "title": "Space Exploration",
+            "authors": "Raisa Rahman, Imran Hussain",
+            "publishDate": "2023-12-01",
+            "journal": "Astronomy & Astrophysics"
+        },
+        "sports": {
+            "name": "Cricket",
+            "titles": "University Cricket Championship",
+            "nationalCups": "National Collegiate Cricket Cup"
+        }
+    },
+    {
+        "id": 6,
+        "collegeName": "East West University (EWU)",
+        "collegeImg": "https://img.freepik.com/free-vector/isometric-university-concept-with-school-elements_23-2148215882.jpg?w=740&t=st=1690045515~exp=1690046115~hmac=48ca3ddedacf72d2ab420e9c33db2929cb13ef792261938a6070c07a85326d63",
+        "admissionDates": {
+            "startDate": "2024-02-01",
+            "endDate": "2024-05-31"
+        },
+        "events": {
+            "name": "Tech Expo",
+            "date": "2024-02-15",
+            "location": "Engineering Building"
+        },
+        "research": {
+            "title": "Genetic Engineering",
+            "authors": "Sabrina Ahmed, Kamal Hasan",
+            "publishDate": "2024-01-10",
+            "journal": "Nature Genetics"
+        },
+        "sports": {
+            "name": "Volleyball",
+            "titles": "Intercollegiate Volleyball Championship",
+            "nationalCups": "National Collegiate Volleyball Cup"
+        }
+    }
+]
