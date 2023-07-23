@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Technology Enhanced Learning",
+        "collegeName": "Dhaka University",
+        "img": "https://img.freepik.com/free-vector/flat-university-concept-background_23-2148192575.jpg?w=740&t=st=1690115117~exp=1690115717~hmac=bcbb487903fd93854c3efd171bfe4c100179182f7f3c27a722bba486dc462a05",
+        "link": "https://i1.rgstatic.net/publication/226391881_Implementing_Technology-Enhanced_Learning/links/02e7e52c29f53554c2000000/largepreview.png"
+    },
+    {
+        "id": 2,
+        "name": "Technology Enhanced Learning",
+        "collegeName": "Dhaka University",
+        "img": "https://img.freepik.com/free-vector/isometric-view-modern-education-concept_23-2147928976.jpg?w=740&t=st=1690115163~exp=1690115763~hmac=7402eae7367b42b1769a3bab29978184da893a38fbb105df8f7986645664c308",
+        "link": "https://i1.rgstatic.net/publication/26500006_Technology-Enhanced_Learning_in_Developing_Nations_A_review/links/024ad6320cf25bc6d4a1d665/largepreview.png"
+    },
+    {
+        "id": 3,
+        "name": "Climate Change",
+        "collegeName": "Jahangirnagar University (JU)",
+        "img": "https://img.freepik.com/premium-vector/hand-drawn-flat-climate-change-concept-illustration_23-2149091660.jpg?w=740",
+        "link": "https://nap.nationalacademies.org/books/22473/gif/114.gif"
+    },
+    {
+        "id": 4,
+        "name": "Climate Change",
+        "collegeName": "Jahangirnagar University (JU)",
+        "img": "https://img.freepik.com/free-vector/save-planet-illustration-style_23-2148509848.jpg?w=740&t=st=1690115229~exp=1690115829~hmac=b5947164efe18e2d3a896f4f814b884bbd8ea465d3ab594ec07f7fd88c2f6b4b",
+        "link": "https://image.isu.pub/170415110256-d6b6cbe9fc42be61e2db46c5ce7f0116/jpg/page_1.jpg"
+    },
+    {
+        "id": 5,
+        "name": "AI in Healthcare",
+        "collegeName": "North South University (NSU)",
+        "img": "https://img.freepik.com/free-vector/pharmacist_23-2148174669.jpg?w=740&t=st=1690115325~exp=1690115925~hmac=3efde7e094dc8419b0641b1178672df55a4fa068389f33a6eb9923b29f99f5cc",
+        "link": "https://i1.rgstatic.net/publication/329163470_Artificial_Intelligence_in_Healthcare-A_Review/links/5bf8e22ea6fdcc53881661b8/largepreview.png"
+    },
+    {
+        "id": 6,
+        "name": "AI in Healthcare",
+        "collegeName": "North South University (NSU)",
+        "img": "https://img.freepik.com/free-vector/online-doctor-concept_23-2148534532.jpg?w=740&t=st=1690115347~exp=1690115947~hmac=fbab5a0eeecd6bd4b5a9b9717cc1cb3fa18ad9236d7f762fdd8ccdb8dbfc9a23",
+        "link": "https://i1.rgstatic.net/publication/317880442_Artificial_intelligence_in_healthcare_past_present_and_future/links/594ff9f9aca27248ae43888d/largepreview.png"
+    }
+]

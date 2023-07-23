@@ -11,6 +11,7 @@ app.use(express.json());
 // json files get
 const collegeJSON = require('./college.json');
 const bestCollegeJSON = require('./BestCollege.json');
+const researchPaperJSON = require('./ResearchPaper.json');
 
 // mongodb code start
 const { MongoClient, ServerApiVersion } = require('mongodb');
@@ -54,6 +55,10 @@ app.get('/bestCollege', (req, res) => {
     res.send(bestCollegeJSON)
 });
 
+// researchPaperJSON file section
+app.get('/researchPaper', (req, res) => {
+    res.send(researchPaperJSON)
+});
 
 app.listen(port, () => {
     console.log(`college is running on port: ${port}`);
