@@ -33,6 +33,7 @@ async function run() {
 
         // get the dataBase
         const admissionCollection = client.db('college-hub-db').collection('admission');
+        const reviewCollection = client.db('college-hub-db').collection('review');
 
 
         // admission post api
@@ -50,6 +51,13 @@ async function run() {
             }
             const query = { email };
             const result = await admissionCollection.find(query).toArray();
+            res.send(result);
+        });
+
+        // Select The Class post api
+        app.post('/review', async (req, res) => {
+            const review = req.body;
+            const result = await reviewCollection.insertOne(review);
             res.send(result);
         });
 
