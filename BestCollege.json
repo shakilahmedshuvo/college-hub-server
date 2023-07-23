@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "collegeName": "Islamic University, Bangladesh",
+        "collegeRatings": 4.3,
+        "admissionDate": "2023-09-01",
+        "research": 110,
+        "collegeImg": "https://img.freepik.com/free-vector/isometric-university-background_23-2148169228.jpg?w=740&t=st=1690098031~exp=1690098631~hmac=72b806d73fff77a8fd6f986942369388629ab26af996a682ddd9fb8bcc1d99d8"
+    },
+    {
+        "id": 2,
+        "collegeName": "East West University (EWU)",
+        "collegeRatings": 4.7,
+        "admissionDate": "2023-08-15",
+        "research": 75,
+        "collegeImg": "https://img.freepik.com/premium-vector/flat-university-concept_23-2148184171.jpg?w=740"
+    },
+    {
+        "id": 3,
+        "collegeName": "Khulna University",
+        "collegeRatings": 4.5,
+        "admissionDate": "2023-10-01",
+        "research": 90,
+        "collegeImg": "https://img.freepik.com/free-vector/flat-university-concept-background_23-2148185581.jpg?w=740&t=st=1690098113~exp=1690098713~hmac=24d0887e9800fe225ec2790c9964a47f871117545e043109b8173e527ff2468a"
+    },
+    {
+        "id": 4,
+        "collegeName": "Jahangirnagar University",
+        "collegeRatings": 4.2,
+        "admissionDate": "2023-07-30",
+        "research": 120,
+        "collegeImg": "https://img.freepik.com/free-vector/flat-university-concept_23-2148173157.jpg?w=740&t=st=1690098137~exp=1690098737~hmac=9a0168d066470eac93b37a8253ef07d94639f7cd3b6ba7fd7b64ca4169f92e62"
+    },
+    {
+        "id": 5,
+        "collegeName": "Jagannath University",
+        "collegeRatings": 4.1,
+        "admissionDate": "2023-08-10",
+        "research": 85,
+        "collegeImg": "https://img.freepik.com/free-vector/flat-university-concept_23-2148180026.jpg?w=740&t=st=1690098180~exp=1690098780~hmac=36826e3a1622c406bb9d910b8f6ad2b785ac9e8548502f282842fed262e05624"
+    },
+    {
+        "id": 6,
+        "collegeName": "City University, Bangladesh",
+        "collegeRatings": 4.6,
+        "admissionDate": "2023-09-15",
+        "research": 105,
+        "collegeImg": "https://img.freepik.com/free-vector/flat-university-concept_23-2148170516.jpg?w=740&t=st=1690098222~exp=1690098822~hmac=bf1c4803931273c63ddbb2bf981d1ccf0470e32935a97d26466d49d17a103dfe"
+    }
+]

@@ -10,6 +10,7 @@ app.use(express.json());
 
 // json files get
 const collegeJSON = require('./college.json');
+const bestCollegeJSON = require('./BestCollege.json');
 
 // mongodb code start
 const { MongoClient, ServerApiVersion } = require('mongodb');
@@ -46,6 +47,11 @@ app.get('/', (req, res) => {
 // collegeJSON file section
 app.get('/college', (req, res) => {
     res.send(collegeJSON)
+});
+
+// bestCollegeJSON file section
+app.get('/bestCollege', (req, res) => {
+    res.send(bestCollegeJSON)
 });
 
 
