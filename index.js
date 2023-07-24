@@ -9,8 +9,6 @@ app.use(cors());
 app.use(express.json());
 
 // json files get
-// const collegeJSON = require('./college.json');
-// const bestCollegeJSON = require('./BestCollege.json');
 const researchPaperJSON = require('./ResearchPaper.json');
 
 // mongodb code start
@@ -141,16 +139,6 @@ run().catch(console.dir);
 app.get('/', (req, res) => {
     res.send('college is running')
 });
-
-// collegeJSON file section
-// app.get('/college', (req, res) => {
-//     res.send(collegeJSON)
-// });
-
-// bestCollegeJSON file section
-// app.get('/bestCollege', (req, res) => {
-//     res.send(bestCollegeJSON)
-// });
 
 // researchPaperJSON file section
 app.get('/researchPaper', (req, res) => {
