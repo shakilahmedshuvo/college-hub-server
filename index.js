@@ -9,8 +9,8 @@ app.use(cors());
 app.use(express.json());
 
 // json files get
-const collegeJSON = require('./college.json');
-const bestCollegeJSON = require('./BestCollege.json');
+// const collegeJSON = require('./college.json');
+// const bestCollegeJSON = require('./BestCollege.json');
 const researchPaperJSON = require('./ResearchPaper.json');
 
 // mongodb code start
@@ -34,8 +34,22 @@ async function run() {
         // get the dataBase
         const admissionCollection = client.db('college-hub-db').collection('admission');
         const usersCollection = client.db('college-hub-db').collection('users');
+        const bestCollegesCollection = client.db('college-hub-db').collection('bestCollege');
+        const collegeCollection = client.db('college-hub-db').collection('colleges');
         const reviewCollection = client.db('college-hub-db').collection('reviews');
 
+
+        // bestCollege get api
+        app.get('/bestCollege', async (req, res) => {
+            const result = await bestCollegesCollection.find().toArray();
+            res.send(result);
+        });
+
+        // colleges get api
+        app.get('/college', async (req, res) => {
+            const result = await collegeCollection.find().toArray();
+            res.send(result);
+        });
 
         // admission post api
         app.post('/admission', async (req, res) => {
@@ -129,14 +143,14 @@ app.get('/', (req, res) => {
 });
 
 // collegeJSON file section
-app.get('/college', (req, res) => {
-    res.send(collegeJSON)
-});
+// app.get('/college', (req, res) => {
+//     res.send(collegeJSON)
+// });
 
 // bestCollegeJSON file section
-app.get('/bestCollege', (req, res) => {
-    res.send(bestCollegeJSON)
-});
+// app.get('/bestCollege', (req, res) => {
+//     res.send(bestCollegeJSON)
+// });
 
 // researchPaperJSON file section
 app.get('/researchPaper', (req, res) => {
