@@ -43,7 +43,7 @@ async function run() {
             res.send(result);
         });
 
-        // Select The Class get api
+        // admission get api
         app.get('/admission', async (req, res) => {
             const email = req.query.email;
             if (!email) {
@@ -54,10 +54,16 @@ async function run() {
             res.send(result);
         });
 
-        // Select The Class post api
+        // reviews post api
         app.post('/reviews', async (req, res) => {
             const review = req.body;
             const result = await reviewCollection.insertOne(review);
+            res.send(result);
+        });
+
+        //  reviews get api
+        app.get('/reviews', async (req, res) => {
+            const result = await reviewCollection.find().toArray();
             res.send(result);
         });
 
