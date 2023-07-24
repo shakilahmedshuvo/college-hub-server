@@ -12,7 +12,7 @@ app.use(express.json());
 const researchPaperJSON = require('./ResearchPaper.json');
 
 // mongodb code start
-const { MongoClient, ServerApiVersion } = require('mongodb');
+const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.frhesy5.mongodb.net/?retryWrites=true&w=majority`;
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
@@ -27,7 +27,7 @@ const client = new MongoClient(uri, {
 async function run() {
     try {
         // Connect the client to the server	(optional starting in v4.7)
-        await client.connect();
+        // await client.connect();
 
         // get the dataBase
         const admissionCollection = client.db('college-hub-db').collection('admission');
@@ -37,16 +37,33 @@ async function run() {
         const reviewCollection = client.db('college-hub-db').collection('reviews');
 
 
-        // bestCollege get api
+
+        // admission post api
         app.get('/bestCollege', async (req, res) => {
             const result = await bestCollegesCollection.find().toArray();
-            res.send(result);
+            res.send(result)
+        });
+
+        // bestCollege get by id api
+        app.get('/bestCollege/:id', async (req, res) => {
+            const id = req.params.id;
+            const query = { _id: new ObjectId(id) };
+            const result = await bestCollegesCollection.findOne(query);
+            res.send(result)
         });
 
         // colleges get api
         app.get('/college', async (req, res) => {
             const result = await collegeCollection.find().toArray();
             res.send(result);
+        });
+
+        // college get by id api
+        app.get('/college/:id', async (req, res) => {
+            const id = req.params.id;
+            const query = { _id: new ObjectId(id) };
+            const result = await collegeCollection.findOne(query);
+            res.send(result)
         });
 
         // admission post api
@@ -106,11 +123,11 @@ async function run() {
             res.send(result)
         });
 
-        // toy put and update
+        // email put and update
         app.put('/users/:email', async (req, res) => {
             const email = req.params.email;
             const update = req.body;
-            const query = { email: email }
+            const filter = { email };
             const options = { upsert: true };
             const data = {
                 $set: {
@@ -121,7 +138,7 @@ async function run() {
                     options: update.options
                 }
             }
-            const result = await usersCollection.updateOne(query, data, options);
+            const result = await usersCollection.updateOne(filter, data, options);
             res.send(result);
         });
 
