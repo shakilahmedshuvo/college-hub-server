@@ -127,15 +127,14 @@ async function run() {
         app.put('/users/:email', async (req, res) => {
             const email = req.params.email;
             const update = req.body;
-            const filter = { email };
+            const filter = { email: email };
             const options = { upsert: true };
             const data = {
                 $set: {
                     phone: update.phone,
                     address: update.address,
                     collegeName: update.collegeName,
-                    subject: update.subject,
-                    options: update.options
+                    subject: update.subject
                 }
             }
             const result = await usersCollection.updateOne(filter, data, options);
